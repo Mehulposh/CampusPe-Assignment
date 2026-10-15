@@ -14,6 +14,11 @@ const PATHS = {
   book: <path d="M3 5h7a2 2 0 012 2v13a2 2 0 00-2-2H3zM21 5h-7a2 2 0 00-2 2v13a2 2 0 012-2h7z" />,
   chk: <path d="M5 12l5 5 9-10" />,
   srch: (<><circle cx="11" cy="11" r="7" /><path d="M20 20l-4-4" /></>),
+  badge: (<><circle cx="12" cy="12" r="9" /><path d="M8 12l3 3 5-6" /></>),
+  chat: <path d="M21 12a8 8 0 01-11.6 7.1L4 20l1-4.6A8 8 0 1121 12z" />,
+  building: (<><rect x="4" y="3" width="12" height="18" rx="1" /><path d="M16 9h4v12h-4M8 7h4M8 11h4M8 15h4" /></>),
+  scale: <path d="M12 3v18M6 21h12M5 7h14M5 7l-3 7a3 3 0 006 0zM19 7l-3 7a3 3 0 006 0z" />,
+  circle: (<><circle cx="12" cy="12" r="9" /><path d="M8 12h.01M12 12h.01M16 12h.01" /></>),
 };
 
 export default function Icon({ name, className = '', style }) {
