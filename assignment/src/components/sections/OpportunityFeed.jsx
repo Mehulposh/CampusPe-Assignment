@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Icon from '../ui/Icon.jsx';
 import FeedItem from './FeedItem.jsx';
 import { FEED_TABS, FEED_ITEMS } from '../../data/content.js';
-import note from '../../assets/Note.png'
+
 
 /** Card with filter tabs; "All" shows the top three, other tabs show their matches. */
 export default function OpportunityFeed() {
