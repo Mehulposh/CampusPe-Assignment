@@ -19,6 +19,7 @@ const PATHS = {
   building: (<><rect x="4" y="3" width="12" height="18" rx="1" /><path d="M16 9h4v12h-4M8 7h4M8 11h4M8 15h4" /></>),
   scale: <path d="M12 3v18M6 21h12M5 7h14M5 7l-3 7a3 3 0 006 0zM19 7l-3 7a3 3 0 006 0z" />,
   circle: (<><circle cx="12" cy="12" r="9" /><path d="M8 12h.01M12 12h.01M16 12h.01" /></>),
+  lock: (<><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V8a4 4 0 018 0v3" /></>),
 };
 
 export default function Icon({ name, className = '', style }) {
