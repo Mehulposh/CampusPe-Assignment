@@ -9,7 +9,7 @@ export default function EmployersSection() {
     <SplitSection
       id="employers"
       tone="b employers"
-      style={{ paddingTop: 70 }}
+      // style={{ paddingTop: 70 }}
       eyebrow="03 • For employers"
       title="Stop running campus drives. "
       accent="Start hiring the right people."
